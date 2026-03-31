@@ -1,5 +1,6 @@
 
 import './App.css'
+import Account from './Component/Account/Account'
 import Banner from './Component/Banner/Banner'
 import Footer from './Component/Footer/Footer'
 import NavBar from './Component/NavBar/NavBar'
@@ -13,6 +14,7 @@ function App() {
     <NavBar/>
     <Banner/>
     <Ranks/>
+    <Account/>
     <Footer/>
     </>
   )
