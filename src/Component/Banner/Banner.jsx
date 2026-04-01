@@ -1,11 +1,12 @@
 import React from 'react';
+import bannerImg from '../../assets/banner.png'
 
 const Banner = () => {
     return (
         <div className="hero bg-base-200">
             <div className="hero-content flex-col lg:flex-row-reverse">
                 <img
-                    src="/src/assets/banner.png"
+                    src={bannerImg}
                     className="max-w-sm rounded-lg shadow-2xl"
                 />
                 <div>

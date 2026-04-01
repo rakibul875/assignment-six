@@ -1,4 +1,7 @@
 import React from 'react';
+import accountImg from '../../assets/package.png'
+import user from '../../assets/user.png'
+import rocket from '../../assets/rocket.png'
 
 const Account = () => {
     return (
@@ -12,7 +15,7 @@ const Account = () => {
 
                     <p className='text-white text-center bg-gradient-to-r from-[#4F39F6] to-[#9514FA] w-7 h-7 rounded-[50%] mt-3 mx-75'>01</p>
 
-                    <img className='mx-auto' src="/src/assets/user.png" alt="" />
+                    <img className='mx-auto' src={user} alt="" />
                     <h1 className='text-2xl font-bold text-center text-[#101727]'>Create Account</h1>
                     <p className='text-center text-[#627382] mb-5'>Sign up for free in seconds. No credit card required to get started.</p>
                 </div>
@@ -20,13 +23,13 @@ const Account = () => {
 
                     <p className='text-white text-center bg-gradient-to-r from-[#4F39F6] to-[#9514FA] w-7 h-7 rounded-[50%] mt-3 mx-75'>02</p>
 
-                    <img className='mx-auto' src="/src/assets/package.png" alt="" />
+                    <img className='mx-auto' src={accountImg} alt="" />
                     <h1 className='text-2xl font-bold text-center text-[#101727]'>Choose Products</h1>
                     <p className='text-center text-[#627382] mb-5'>Browse our catalog and select the tools that fit your needs.</p>
                 </div>
                 <div className="max-w-85 shadow-xl space-y-5 rounded-xl bg-white">
                     <p className='text-white text-center bg-gradient-to-r from-[#4F39F6] to-[#9514FA] w-7 h-7 rounded-[50%] mt-3 mx-75'>03</p>
-                    <img className='mx-auto' src="/src/assets/rocket.png" alt="" />
+                    <img className='mx-auto' src={rocket} alt="" />
                     <h1 className='text-2xl font-bold text-center text-[#101727]'>Start Creating</h1>
                     <p className='text-center text-[#627382] mb-5'>Download and start using your premium tools immediately.</p>
                 </div>
