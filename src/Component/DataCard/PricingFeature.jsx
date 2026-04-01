@@ -6,7 +6,7 @@ import React from 'react';
 const PricingFeature = ({featur}) => {
     return (
         <div>
-            <p className='flex gap-3'><Check/>{featur}</p>
+            <p className='flex gap-3'><Check className='text-green-400'/>{featur}</p>
         </div>
     );
 };

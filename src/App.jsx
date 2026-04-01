@@ -21,7 +21,7 @@ function App() {
 
   return (
     <>
-      <NavBar />
+      <NavBar  carts={carts}/>
       <Banner />
       <Ranks />
 
