@@ -1,12 +1,14 @@
 import { CircleCheck } from 'lucide';
 import PricingFeature from './PricingFeature';
 import { useState } from 'react';
+import { toast } from 'react-toastify';
 const DataCard = ({ data ,carts,setCarts }) => {
     const [isCard, setCard] = useState(false)
     const { icon, name, price, tag, features, description } = data
     const handelAdd = () => {
         setCard(true)
         setCarts([...carts,data])
+        toast.success("Item Added Cart")
     }
     return (
         <div>
